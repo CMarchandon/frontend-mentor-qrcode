@@ -4,6 +4,10 @@ body {
     background-color: hsl(212, 45%, 89%);
     text-align: center;
     font-family: 'Outfit', sans-serif;
+    display: flex;
+  align-items: center;
+  justify-content: center; /* En option pour centrer horizontalement également */
+  height: 100vh;
 }
 
 article {
@@ -13,7 +17,7 @@ article {
     min-height: 100px;
     max-width: 280px;
     margin: auto;
-    margin-top: 90px;;
+  
 }
 
 img {
